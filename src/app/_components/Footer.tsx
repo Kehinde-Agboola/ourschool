@@ -14,7 +14,7 @@ export const Footer = () => {
           <Image src={footer} alt="footer-background-image" />
           <p className="py-5 w-full md:w-[80%]">
             OurSchool is a free digital school provided under a collaboration
-            between the Destiny Trust and Purdue-Epic,
+            between the Destiny Trust,
           </p>
           <div className="flex items-center gap-3">
             <BsTelephone color="white" />
