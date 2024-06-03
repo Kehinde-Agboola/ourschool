@@ -24,6 +24,7 @@ export const navItem = [
 
 export const Course = [
   {
+    id: 1,
     img: Science,
     category: "Science",
     title: "Basic Science",
@@ -31,6 +32,7 @@ export const Course = [
       "Lorem ipsum dolor sit amet consectetur. Cursus et eu tellus aliquet libero et dui. Elementum ultrices tincidunt vitae. Love beau no carte et amor ",
   },
   {
+    id: 2,
     img: English,
     category: "Language",
     title: "English Language",
@@ -38,6 +40,7 @@ export const Course = [
       "Lorem ipsum dolor sit amet consectetur. Cursus et eu tellus aliquet libero et dui. Elementum ultrices tincidunt vitae. Love beau no carte et amor ",
   },
   {
+    id: 3,
     img: Math,
     category: "Mathematics",
     title: "Mathematics",
@@ -45,6 +48,7 @@ export const Course = [
       "Lorem ipsum dolor sit amet consectetur. Cursus et eu tellus aliquet libero et dui. Elementum ultrices tincidunt vitae. Love beau no carte et amor ",
   },
   {
+    id: 4,
     img: Science,
     category: "Science",
     title: "Basic Science",
@@ -52,6 +56,7 @@ export const Course = [
       "Lorem ipsum dolor sit amet consectetur. Cursus et eu tellus aliquet libero et dui. Elementum ultrices tincidunt vitae. Love beau no carte et amor ",
   },
   {
+    id: 5,
     img: English,
     category: "Language",
     title: "English Language",
@@ -59,6 +64,7 @@ export const Course = [
       "Lorem ipsum dolor sit amet consectetur. Cursus et eu tellus aliquet libero et dui. Elementum ultrices tincidunt vitae. Love beau no carte et amor ",
   },
   {
+    id: 6,
     img: Math,
     category: "Mathematics",
     title: "Mathematics",
