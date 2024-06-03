@@ -1,6 +1,5 @@
 import React from "react";
 import globe from "../../../../public/home/globe.svg";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "../../_components/button";
 export const Community = () => {
