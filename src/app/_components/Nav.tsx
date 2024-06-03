@@ -57,16 +57,16 @@ export default function Nav() {
               />
             </svg>
           </div>
-          <div className=" gap-[1.5rem]">
+          <div className="flex items-center gap-[1.5rem]">
             <Link
               href={"/auth/register"}
-              className="bg-white py-2 px-5 rounded-full"
+              className="bg-white py-3 px-5 rounded-full"
             >
               Start Learning
             </Link>
             <Link
               href={"/auth/Login"}
-              className="text-white py-2 px-5 border-2 rounded-full"
+              className="text-white py-3 px-5 border-2 rounded-full"
             >
               Login
             </Link>
@@ -84,14 +84,14 @@ export default function Nav() {
         </div>
       </div>
       {nav && (
-        <nav className="">
+        <nav className="flex flex-col items-center justify-center gap-8 lg:hidden  w-full  transition-all ease-in-out duration-500  absolute h-screen overflow-y-hidden text-2xl bg-blue-100">
           {navItem.map((item, index) => {
             const isActive = item.path === pathname;
 
             return (
               <Link
                 key={index}
-                className={`px-4 py-2 rounded-md text-sm lg:text-base relative no-underline duration-300 ease-in capitalize ${
+                className={`px-4 py-2 rounded-md  lg:text-base relative no-underline duration-300 ease-in capitalize ${
                   isActive
                     ? "text-white border-b-2"
                     : "text-white hover:border-b-2"
@@ -102,6 +102,20 @@ export default function Nav() {
               </Link>
             );
           })}
+          <div className="flex flex-col-reverse md:flex-row items-center md:w-none gap-[1.5rem]">
+            <Link
+              href={"/auth/register"}
+              className="bg-white py-3 px-5 rounded-full w-full"
+            >
+              Start Learning
+            </Link>
+            <Link
+              href={"/auth/Login"}
+              className="text-white text-center py-3 px-5 border-2 rounded-full w-full md:w-none"
+            >
+              Login
+            </Link>
+          </div>
         </nav>
       )}
     </div>
