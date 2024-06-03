@@ -28,7 +28,7 @@ export const Community = () => {
             />
           </div>
         </div>
-        <Image src={globe} alt="children" />
+        <Image src={globe} alt="children" data-aos="zoom-in" />
       </section>
     </main>
   );

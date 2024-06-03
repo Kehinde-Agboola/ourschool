@@ -1,5 +1,4 @@
 import React from "react";
-import { Virtual } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { LuArrowUpRight } from "react-icons/lu";
 import { Course } from "@/app/_constant/data";
@@ -54,7 +53,7 @@ export const Learning = () => {
             {Course.map((d, index) => {
               return (
                 <SwiperSlide>
-                  <div key={index} className="">
+                  <div key={index}>
                     <div className="relative">
                       <Image src={d?.img} alt={d?.title} />
                       <p className="absolute text-[12px] py-1 bg-black rounded-md px-3 top-0 right-0 m-5 md:m-3">
