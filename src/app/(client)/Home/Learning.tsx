@@ -50,28 +50,26 @@ export const Learning = () => {
               },
             }}
           >
-            {Course.map((d) => {
+            {Course.map((d, index) => {
               return (
                 <SwiperSlide>
-                  <div>
-                    <div className="relative">
-                      <Image src={d?.img} alt={d?.title} />
-                      <p className="absolute text-[12px] py-1 bg-black rounded-md px-3 top-0 right-0 m-5 md:m-3">
-                        {d?.category}
-                      </p>
-                    </div>
-                    <p className="text-[1.5rem] py-4">{d?.title}</p>
-                    <p className="text-[12px]">{d?.description}</p>
-                    <div className="flex items-center pt-4">
-                      <Button
-                        text="Play Video"
-                        className="bg-white text-black rounded-full relative px-10 py-3"
-                      />
-                      <LuArrowUpRight
-                        className="absolute left-[8rem]"
-                        color="black"
-                      />
-                    </div>
+                  <div key={index} className="relative">
+                    <Image src={d?.img} alt={d?.title} />
+                    <p className="absolute text-[12px] py-1 bg-black rounded-md px-3 top-0 right-0 m-5 md:m-3">
+                      {d?.category}
+                    </p>
+                  </div>
+                  <p className="text-[1.5rem] py-4">{d?.title}</p>
+                  <p className="text-[12px]">{d?.description}</p>
+                  <div className="flex items-center pt-4">
+                    <Button
+                      text="Play Video"
+                      className="bg-white text-black rounded-full relative px-10 py-3"
+                    />
+                    <LuArrowUpRight
+                      className="absolute left-[8rem]"
+                      color="black"
+                    />
                   </div>
                 </SwiperSlide>
               );
