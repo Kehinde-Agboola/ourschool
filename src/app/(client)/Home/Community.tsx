@@ -1,12 +1,13 @@
 import React from "react";
 import globe from "../../../../public/home/globe.svg";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "../../_components/button";
 export const Community = () => {
   return (
     <main className="py-[3rem] px-8 md:px-0">
       <section className="flex flex-col-reverse md:flex-row items-center justify-between">
-        <div className=" ">
+        <div data-aos="zoom-in" className=" ">
           <h2 className="text-blue-100 text-center md:text-left">
             Join OurSchool Community
           </h2>
@@ -28,7 +29,7 @@ export const Community = () => {
             />
           </div>
         </div>
-        <Image src={globe} alt="children" data-aos="zoom-in" />
+        <Image src={globe} alt="children" />
       </section>
     </main>
   );

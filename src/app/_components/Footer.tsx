@@ -12,9 +12,9 @@ export const Footer = () => {
       <section className="flex flex-col md:flex-row justify-center">
         <div className="pt-8 md:pt-0">
           <Image src={footer} alt="footer-background-image" />
-          <p className="py-5 w-full md:w-[80%]">
-            OurSchool is a free digital school provided under a collaboration
-            between the Destiny Trust,
+          <p className="py-5 w-full md:w-[75%]">
+            OurSchool is a free digital school provided by{" "}
+            <strong>The Destiny Trust</strong>.
           </p>
           <div className="flex items-center gap-3">
             <BsTelephone color="white" />
