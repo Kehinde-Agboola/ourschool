@@ -23,7 +23,7 @@ export const Learning = () => {
   return (
     <main className="bg-learning relative bg-blue-100 bg-cover bg-center bg-no-repeat py-[4rem] px-8 md:px-0 text-white">
       <section>
-        <div className="text-center">
+        <div className="text-center pb-8">
           <h2>Have fun learning with videos</h2>
           <p className="md:w-[60%] mx-auto py-5">
             What we learn with joy, we never forget. Learning is more fun with
