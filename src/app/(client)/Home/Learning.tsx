@@ -50,10 +50,10 @@ export const Learning = () => {
               },
             }}
           >
-            {Course.map((d, index) => {
+            {Course.map((d) => {
               return (
                 <SwiperSlide>
-                  <div key={index}>
+                  <div>
                     <div className="relative">
                       <Image src={d?.img} alt={d?.title} />
                       <p className="absolute text-[12px] py-1 bg-black rounded-md px-3 top-0 right-0 m-5 md:m-3">
