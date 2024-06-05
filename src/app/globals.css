@@ -16,3 +16,16 @@
     @apply list-none;
   }
 }
+h1 {
+  background-color: "#277FEE";
+}
+
+.gradient {
+  background: rgb(39, 127, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 127, 238, 1) 0%,
+    rgba(35, 119, 226, 1) 35%,
+    rgba(9, 100, 215, 1) 100%
+  );
+}
