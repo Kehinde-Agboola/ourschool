@@ -11,7 +11,7 @@ export const Education = () => {
               All children deserve access to education wherever they are
             </span>
             . We imagine the Africa where distance or lack of internet access is
-            not a barrier to a child's education
+            not a barrier to a child&apos;s education
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-5 pt-8">
             <Button
