@@ -18,7 +18,7 @@ export const Hero = () => {
         </div>
         <div className="flex items-center relative w-full md:md:w-[50%] mx-auto pt-[1rem]">
           <span>
-            <IoIosSearch className="text-black block absolute bottom-[10px] left-[50px] xl:left-[15px]" />
+            <IoIosSearch className="text-black block absolute bottom-[10px]  left-[15px]" />
           </span>
           <input
             type="text"
