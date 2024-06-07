@@ -5,22 +5,27 @@ import Math from "../../../public/home/mathematics.svg";
 import Analytics from "../../../public/teacher/analytics.svg";
 import Online from "../../../src/../public/teacher/learning.svg";
 import Management from "../../../public/teacher/management.svg";
-
+import Verbal from "../../../public/library/verbal.svg";
+import Numbers from "../../../public/library/numbers.svg";
+import Shadow from "../../../public/library/shadow.svg";
+import History from "../../../public/library/history.svg";
+import many from "../../../public/library/many.svg";
+import maths from "../../../public/library/maths.svg";
 export const navItem = [
   {
     name: "teacher",
     path: "/teacher",
   },
   {
-    name: "library",
+    name: "Library",
     path: "/library",
   },
   {
-    name: "about",
+    name: "About",
     path: "/about",
   },
   {
-    name: "donate",
+    name: "Donate",
     path: "/donate",
   },
 ];
@@ -154,5 +159,80 @@ export const socials = [
     icon: BsInstagram,
     size: 25,
     color: "border-white b-2",
+  },
+];
+
+export const Word = [
+  {
+    name: "Vowel letters",
+  },
+  {
+    name: "Consonant letters",
+  },
+  {
+    name: "Two letter Words",
+  },
+];
+
+export const Courses = [
+  {
+    img: Verbal,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: History,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: Numbers,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: Shadow,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: many,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: maths,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: Verbal,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: History,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: Numbers,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: Shadow,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: many,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
+  },
+  {
+    img: maths,
+    description: "Verbal Reasoning for Primary 4",
+    category: "Worksheet",
   },
 ];
