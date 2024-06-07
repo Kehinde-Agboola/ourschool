@@ -75,7 +75,11 @@ export default function Nav() {
           onClick={() => setNav(!nav)}
           className="cursor-pointer pr-4 z-10 text-gray-500 xl:hidden"
         >
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {nav ? (
+            <FaTimes size={30} color="white" />
+          ) : (
+            <FaBars size={30} color="white" />
+          )}
         </div>
       </div>
       {nav && (
