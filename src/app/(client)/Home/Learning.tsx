@@ -35,7 +35,7 @@ export const Learning = () => {
             modules={[Navigation, Pagination, Keyboard, Mousewheel, Autoplay]}
             mousewheel={true}
             keyboard={true}
-            spaceBetween={50}
+            spaceBetween={80}
             slidesPerView={3}
             navigation={{ prevEl, nextEl }}
             breakpoints={{
