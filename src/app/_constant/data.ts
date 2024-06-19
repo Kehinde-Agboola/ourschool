@@ -11,6 +11,12 @@ import Shadow from "../../../public/library/shadow.svg";
 import History from "../../../public/library/history.svg";
 import many from "../../../public/library/many.svg";
 import maths from "../../../public/library/maths.svg";
+import Library from "../../../public/library/library.svg";
+import Print from "../../../public/library/printable.svg";
+import Projector from "../../../public/library/projectable.svg";
+import WorkSheet from "../../../public/library/worksheet.svg";
+import VideoLesson from "../../../public/library/video.svg";
+import Games from "../../../public/library/games.svg";
 export const navItem = [
   {
     name: "teacher",
@@ -234,5 +240,31 @@ export const Courses = [
     img: maths,
     description: "Verbal Reasoning for Primary 4",
     category: "Worksheet",
+  },
+];
+export const Heading = [
+  {
+    img: Library,
+    title: "Entire Library",
+  },
+  {
+    img: Print,
+    title: "Printable",
+  },
+  {
+    img: Projector,
+    title: "Projectable",
+  },
+  {
+    img: WorkSheet,
+    title: "WorkSheet",
+  },
+  {
+    img: VideoLesson,
+    title: "Video Lesson",
+  },
+  {
+    img: Games,
+    title: "Games & Quizzes",
   },
 ];
