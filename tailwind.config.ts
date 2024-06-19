@@ -22,6 +22,7 @@ const config: Config = {
         blue: {
           100: "#0964D7",
         },
+        header: "#F3FBFF",
         lightgray: "F3FBFF",
         gradient:
           " linear-gradient(to right bottom,rgba(39, 127, 238, 1),rgba(35, 119, 226, 1) rgba(9, 100, 215, 1)",
